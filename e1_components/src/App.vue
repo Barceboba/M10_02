@@ -9,7 +9,7 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Pare from './components/Pare.vue'
-import Fill from './components/Fill.vue'
+//import Fill from './components/Fill.vue'
 
 export default {
   name: 'App',
@@ -27,7 +27,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #4b214d;
   margin-top: 60px;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Vue logo" src="./assets/logo copia.png">
     <HelloWorld msg="A boinazos entre padre e hijo"/>
    <!-- <Fill msg="Al llarg del cami plegats"/> -->
     <Pare msg="La vostra covardia és esfereïdoraa"/>  </div>

@@ -1,0 +1,19 @@
+{
+  "name": "m10_02",
+  "version": "1.0.0",
+  "description": "components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barceboba/M10_02.git"
+  },
+  "author": "Miquel Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Barceboba/M10_02/issues"
+  },
+  "homepage": "https://github.com/Barceboba/M10_02#readme"
+}

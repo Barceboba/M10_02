@@ -1,22 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo copia.png">
-    <HelloWorld msg="A boinazos entre padre e hijo"/>
-   <!-- <Fill msg="Al llarg del cami plegats"/> -->
-    <Pare msg="La vostra covardia és esfereïdoraa"/>  </div>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Pare from './components/Pare.vue'
-//import Fill from './components/Fill.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    Pare
-
+    HelloWorld
   }
 }
 </script>
@@ -27,7 +22,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #4b214d;
+  color: #2c3e50;
   margin-top: 60px;
 }
 </style>

@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Barceboba/M10_02/issues"
   },
-  "homepage": "https://github.com/Barceboba/M10_02#readme"
+  "homepage": "https://github.com/Barceboba/M10_02#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "bootstrap-vue": "^2.21.2",
+    "vue": "^2.6.14"
+  }
 }

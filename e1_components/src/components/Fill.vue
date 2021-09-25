@@ -1,5 +1,5 @@
 <template>
-    <div class='fill bg-dark text-white p-3'>
+    <div class='fill bg-secondary text-white p-3'>
         <h4>{{ msg }}</h4>
     </div>
 </template>

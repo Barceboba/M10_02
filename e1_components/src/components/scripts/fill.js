@@ -1,6 +1,6 @@
 export default {
     name: 'Fill',
     props: {
-        msg: String
+        missatge: String
     }
 };

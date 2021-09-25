@@ -1,11 +1,11 @@
-import Fill from '../../components/Fill.vue'
+import Fills from '../Fills.vue'
 
 export default {
     name: 'Pare',
     props: {
-        msg: String
+        missatge: String
     },
-    component: {
-        Fill
+    components: {
+        Fills
     }
-};
+}

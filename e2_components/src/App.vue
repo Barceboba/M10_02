@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/blogo.png" class="mb-5">
-    <Pare></Pare>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import Pare from './components/Pare.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    Pare
+    HelloWorld
   }
 }
 </script>
@@ -24,13 +24,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  
 }
-.pare, .fill {
-border: 2px solid mediumaquamarine;
-}
-.pare {
-  background: #b4babe;
-}
-
 </style>

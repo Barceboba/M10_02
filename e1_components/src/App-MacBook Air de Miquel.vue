@@ -1,19 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/blogo.png" class="mb-5">
-    <Pare></Pare>
-  </div>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <padre></padre>
 </template>
 
 <script>
-import Pare from './components/Pare.vue'
+import Pare from "./components/Pare.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Pare
-  }
-}
+    Pare,
+  },
+};
 </script>
 
 <style lang="scss">
@@ -22,15 +21,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #4b214d;
   margin-top: 60px;
-  
 }
-.pare, .fill {
-border: 2px solid mediumaquamarine;
-}
-.pare {
-  background: #b4babe;
-}
-
 </style>

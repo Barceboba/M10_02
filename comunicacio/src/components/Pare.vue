@@ -1,11 +1,8 @@
 <template>
-  <div id='pare' class="pare bg-secondary p-3">
-    <h3>{{ missatge }}</h3>
-    <Fill missatge="Item "></Fill>
+  <div class="pare p-3">
+    <h4>Component Pare</h4>
+        <Fill v-for="item in itemsFill" v-bind:key="item.id" :nom="item.nom" @suma=item.mes++ :mes="item.mes"></Fill>
   </div>
 </template>
 
 <script src="../scripts/pare.js"></script> 
-<style lang="sass">
-
-</style>
